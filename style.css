@@ -1,0 +1,12 @@
+#redirectGame{
+    margin: 0 0 0 20px;
+    text-decoration: none;
+    display: block;
+    background-color:green;
+    color:black;
+    text-align:center;
+    width: 70px;
+}
+a:hover, a:active{
+    color:red;
+}
