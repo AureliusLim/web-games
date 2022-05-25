@@ -5,23 +5,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <
     <script src ="scripts.js"></script>
-    <div id= "WelcomeSection">
-        <label for="name">Username: </label>
-        <input type="text" id="name" name="name">
+    <div id="block">
+        <div id= "WelcomeSection">
+            <label for="name"><span id="username">Username: </span></label><br>
+            <input type="text" id="name" name="name">
 
-        <button onclick="welcomeUser()">Submit</button>
+            <button onclick="welcomeUser()">Submit</button>
 
-        <h1 id="welcome"></h1>
+            <h1 id="welcome"></h1>
+        </div>
+        <div id="GameSelect">
+            <div id="GameInfo">
+                <img src="" id="gameImage"><p id="GameTitle"></p><p id="GameDesc"></p>
+            </div>
+           <div id="navbar">
+                <button onclick="displayGame('image/snake.png')" style="margin-left:120px">Snake Game</button>
+                <button onclick="displayGame('image/paper.jpg')">Rock Paper Scissors</button>
+                <button onclick="displayGame('image/breaker.png')">Block Breaker</button><br>
+           </div>
+                <button onclick="changePage()" id = "redirectGame">PLAY</button>
+        </div>
     </div>
-    <div id="GameSelect">
-        <img src="" id="gameImage">
-        <button onclick="displayGame('image/snake.png')">Snake Game</button>
-        <button onclick="displayGame('image/paper.jpg')">Rock Paper Scissors</button>
-        <button onclick="displayGame('image/breaker.png')">Block Breaker</button>
-        <a href ="" id = "redirectGame" onclick="changePage()">PLAY</a>
-    </div>
+    
 
 </body>
 </html>

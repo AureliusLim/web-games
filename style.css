@@ -1,12 +1,72 @@
-#redirectGame{
-    margin: 0 0 0 20px;
-    text-decoration: none;
-    display: block;
-    background-color:green;
-    color:black;
-    text-align:center;
-    width: 70px;
+
+#welcome{
+    height:50px;
+    width:700px;
+    color:antiquewhite;
+    font-style:italic;
 }
-a:hover, a:active{
-    color:red;
+#block{
+    
+    display:block;
+    margin:auto;
+    width: 700px;
+    height:550px;
+    padding: 50px;
+    background-color:rgb(30, 64, 64);
+    border: 2px solid rgb(192, 187, 52);
+}
+body{
+    background-image: url("image/starting.png");
+}
+#username{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:azure;
+}
+#name{
+    margin:10px 10px 10px 10px;
+}
+button{
+    background-color:chartreuse;
+    padding:7px;
+    border-radius:10px;
+}
+button:hover{
+    background-color:rgb(192, 187, 52);
+}
+#GameInfo{
+    width: 600px;
+    height:250px;
+    display:block;
+    margin:auto;
+    border: 2px solid rgb(192, 187, 52);
+}
+
+#redirectGame{
+    margin:20px 0 0 0;
+    padding: 10px;
+}
+#navbar{
+    margin: 20px 0 0 50px;
+    
+    display:block;
+}
+#GameDesc{
+    width: 250px;
+    font-family: cursive;
+    color:rgb(189, 217, 229);
+    float:right;
+    margin: 20px 10px 0 0;
+    padding: 5px;
+}
+#GameTitle{
+    width: 200px;
+    font-family: cursive;
+    color:rgb(189, 217, 229);
+    float:right;
+    margin: 20px 10px 0 20px;
+    padding: 5px;
+    height:5px;
+}
+#GameImage{
+    float:left;
 }
