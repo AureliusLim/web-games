@@ -14,8 +14,7 @@ $(document).ready(function(){
         if(game_loop !="undefined"){
             clearInterval(draw);
         }
-       
-            setInterval(draw, 45);
+        setInterval(draw, 45);
         
     }
     
